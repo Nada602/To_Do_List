@@ -1,0 +1,126 @@
+body {
+  background: linear-gradient(1350deg, #153677, #4e085f);
+  font-family: sans-serif;
+}
+.home {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(252, 250, 249);
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 75px;
+}
+.title {
+  display: flex;
+  padding: 10px;
+}
+.home h2 {
+  margin-left: 0px;
+}
+
+.title img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.btn {
+  padding: 10px 30px;
+  background-color: #8c54c5;
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgba(82, 28, 113, 0.619);
+  cursor: pointer;
+}
+
+input {
+  height: 20px;
+  width: 50%;
+
+  justify-content: center;
+  padding: 10px;
+  border-color: #8c54c5;
+  border-width: 3px;
+
+  border-radius: 10px;
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+ul li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("/assetss/home-button_15990251.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-color: rgb(138, 154, 83);
+  position: absolute;
+  top: 15px;
+  left: -30px;
+}
+
+ul li span {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+}
+
+ul li span:hover {
+  border-radius: 80%;
+  background-color: rgb(217, 216, 214);
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -ms-border-radius: 80%;
+  -o-border-radius: 80%;
+}
+
+.checked{
+    color: #555;
+    text-decoration:line-through;
+}
+
+.checked::before{
+
+    background-image: url("/assetss/check_17578658.png");
+    background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  position: absolute;
+   top: 10px;
+  left: -35px;
+}
